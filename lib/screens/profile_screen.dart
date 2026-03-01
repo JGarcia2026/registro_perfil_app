@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import '../db/db_helper.dart';
 
+// Displays the last registered user as profile card
+
+
+
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
 

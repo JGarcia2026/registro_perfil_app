@@ -5,6 +5,7 @@ import 'profile_screen.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
+  // Screen to register new users with validation and SQLite storage
 
   @override
   State<RegisterScreen> createState() => _RegisterScreenState();

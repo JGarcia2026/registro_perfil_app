@@ -1,6 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
+// DBHelper manages SQLite database creation and queries
 class DBHelper {
   static final DBHelper instance = DBHelper._internal();
   DBHelper._internal();
