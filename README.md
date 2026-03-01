@@ -1,16 +1,24 @@
-# registro_perfil_app
+# Mini App de Registro y Perfil de Usuario
 
-A new Flutter project.
+## 📱 Descripción del proyecto
+Aplicación móvil desarrollada en Flutter que permite registrar usuarios mediante un formulario validado y almacenar los datos localmente usando SQLite.
 
-## Getting Started
+## 🛠 Tecnologías utilizadas
+- Flutter
+- Dart
+- SQLite (sqflite)
+- Git y GitHub
 
-This project is a starting point for a Flutter application.
+## 🗄 Base de datos
+Se utiliza SQLite para almacenar los datos del usuario localmente en el dispositivo.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Cómo ejecutar el proyecto
+1. Clonar el repositorio
+2. Ejecutar: flutter pub get
+3. Ejecutar: flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Estructura
+lib/
+- db/
+- screens/
+- main.dart
